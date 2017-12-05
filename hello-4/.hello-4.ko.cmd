@@ -1,0 +1,1 @@
+cmd_/root/Linux_Kernel/hello-4/hello-4.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-4.9.0-4-common/scripts/module-common.lds --build-id  -o /root/Linux_Kernel/hello-4/hello-4.ko /root/Linux_Kernel/hello-4/hello-4.o /root/Linux_Kernel/hello-4/hello-4.mod.o ;  true
